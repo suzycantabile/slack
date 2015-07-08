@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window{
+            
+            window.backgroundColor = UIColor.whiteColor()
+            let teamTableViewController:TeamTableViewController = TeamTableViewController()
+            let teamTableViewControllerNavView = UINavigationController(rootViewController: teamTableViewController)
+            UINavigationBar.appearance().barTintColor = UIColor(red: 231.0/255.0, green: 76.0/255.0, blue: 60.0/255.0, alpha: 1.0)
+            UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+            window.rootViewController = teamTableViewControllerNavView
+            window.makeKeyAndVisible()
+
+        }
         return true
     }
 

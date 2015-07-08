@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6B0BFD71B4D9CEC004D4B39 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0BFD61B4D9CEC004D4B39 /* APICalls.swift */; };
+		C6B0BFD91B4DB1AD004D4B39 /* TeamMemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0BFD81B4DB1AD004D4B39 /* TeamMemberDetailViewController.swift */; };
+		C6B0BFE21B4DBF54004D4B39 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFDA1B4DBF54004D4B39 /* email@2x.png */; };
+		C6B0BFE31B4DBF54004D4B39 /* email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFDB1B4DBF54004D4B39 /* email@3x.png */; };
+		C6B0BFE41B4DBF54004D4B39 /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFDC1B4DBF54004D4B39 /* phone@2x.png */; };
+		C6B0BFE51B4DBF54004D4B39 /* phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFDD1B4DBF54004D4B39 /* phone@3x.png */; };
+		C6B0BFE61B4DBF54004D4B39 /* skype@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFDE1B4DBF54004D4B39 /* skype@2x.png */; };
+		C6B0BFE71B4DBF54004D4B39 /* skype@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFDF1B4DBF54004D4B39 /* skype@3x.png */; };
+		C6B0BFE81B4DBF54004D4B39 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFE01B4DBF54004D4B39 /* title@2x.png */; };
+		C6B0BFE91B4DBF54004D4B39 /* title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFE11B4DBF54004D4B39 /* title@3x.png */; };
+		C6B0BFEE1B4DDECB004D4B39 /* name@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFEA1B4DDECB004D4B39 /* name@2x.png */; };
+		C6B0BFEF1B4DDECB004D4B39 /* name@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFEB1B4DDECB004D4B39 /* name@3x.png */; };
+		C6B0BFF01B4DDECB004D4B39 /* realname@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFEC1B4DDECB004D4B39 /* realname@2x.png */; };
+		C6B0BFF11B4DDECB004D4B39 /* realname@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B0BFED1B4DDECB004D4B39 /* realname@3x.png */; };
 		C6F9213A1B4D94C700B39A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F921391B4D94C700B39A3A /* AppDelegate.swift */; };
 		C6F9213C1B4D94C700B39A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9213B1B4D94C700B39A3A /* ViewController.swift */; };
 		C6F9213F1B4D94C700B39A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F9213D1B4D94C700B39A3A /* Main.storyboard */; };
 		C6F921411B4D94C700B39A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F921401B4D94C700B39A3A /* Images.xcassets */; };
 		C6F921441B4D94C700B39A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F921421B4D94C700B39A3A /* LaunchScreen.xib */; };
 		C6F921501B4D94C800B39A3A /* SlackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9214F1B4D94C800B39A3A /* SlackTests.swift */; };
+		C6F9215A1B4D96BD00B39A3A /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F921591B4D96BD00B39A3A /* TeamTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6B0BFD61B4D9CEC004D4B39 /* APICalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
+		C6B0BFD81B4DB1AD004D4B39 /* TeamMemberDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberDetailViewController.swift; sourceTree = "<group>"; };
+		C6B0BFDA1B4DBF54004D4B39 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email@2x.png"; sourceTree = "<group>"; };
+		C6B0BFDB1B4DBF54004D4B39 /* email@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email@3x.png"; sourceTree = "<group>"; };
+		C6B0BFDC1B4DBF54004D4B39 /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
+		C6B0BFDD1B4DBF54004D4B39 /* phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@3x.png"; sourceTree = "<group>"; };
+		C6B0BFDE1B4DBF54004D4B39 /* skype@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skype@2x.png"; sourceTree = "<group>"; };
+		C6B0BFDF1B4DBF54004D4B39 /* skype@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skype@3x.png"; sourceTree = "<group>"; };
+		C6B0BFE01B4DBF54004D4B39 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
+		C6B0BFE11B4DBF54004D4B39 /* title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@3x.png"; sourceTree = "<group>"; };
+		C6B0BFEA1B4DDECB004D4B39 /* name@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name@2x.png"; sourceTree = "<group>"; };
+		C6B0BFEB1B4DDECB004D4B39 /* name@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name@3x.png"; sourceTree = "<group>"; };
+		C6B0BFEC1B4DDECB004D4B39 /* realname@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "realname@2x.png"; sourceTree = "<group>"; };
+		C6B0BFED1B4DDECB004D4B39 /* realname@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "realname@3x.png"; sourceTree = "<group>"; };
 		C6F921341B4D94C700B39A3A /* Slack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F921381B4D94C700B39A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F921391B4D94C700B39A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +65,7 @@
 		C6F921491B4D94C800B39A3A /* SlackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F9214E1B4D94C800B39A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F9214F1B4D94C800B39A3A /* SlackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackTests.swift; sourceTree = "<group>"; };
+		C6F921591B4D96BD00B39A3A /* TeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +109,9 @@
 			children = (
 				C6F921391B4D94C700B39A3A /* AppDelegate.swift */,
 				C6F9213B1B4D94C700B39A3A /* ViewController.swift */,
+				C6F921591B4D96BD00B39A3A /* TeamTableViewController.swift */,
+				C6B0BFD81B4DB1AD004D4B39 /* TeamMemberDetailViewController.swift */,
+				C6B0BFD61B4D9CEC004D4B39 /* APICalls.swift */,
 				C6F9213D1B4D94C700B39A3A /* Main.storyboard */,
 				C6F921401B4D94C700B39A3A /* Images.xcassets */,
 				C6F921421B4D94C700B39A3A /* LaunchScreen.xib */,
@@ -90,6 +123,18 @@
 		C6F921371B4D94C700B39A3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6B0BFEA1B4DDECB004D4B39 /* name@2x.png */,
+				C6B0BFEB1B4DDECB004D4B39 /* name@3x.png */,
+				C6B0BFEC1B4DDECB004D4B39 /* realname@2x.png */,
+				C6B0BFED1B4DDECB004D4B39 /* realname@3x.png */,
+				C6B0BFDA1B4DBF54004D4B39 /* email@2x.png */,
+				C6B0BFDB1B4DBF54004D4B39 /* email@3x.png */,
+				C6B0BFDC1B4DBF54004D4B39 /* phone@2x.png */,
+				C6B0BFDD1B4DBF54004D4B39 /* phone@3x.png */,
+				C6B0BFDE1B4DBF54004D4B39 /* skype@2x.png */,
+				C6B0BFDF1B4DBF54004D4B39 /* skype@3x.png */,
+				C6B0BFE01B4DBF54004D4B39 /* title@2x.png */,
+				C6B0BFE11B4DBF54004D4B39 /* title@3x.png */,
 				C6F921381B4D94C700B39A3A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +237,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B0BFE51B4DBF54004D4B39 /* phone@3x.png in Resources */,
 				C6F9213F1B4D94C700B39A3A /* Main.storyboard in Resources */,
+				C6B0BFF11B4DDECB004D4B39 /* realname@3x.png in Resources */,
+				C6B0BFE21B4DBF54004D4B39 /* email@2x.png in Resources */,
+				C6B0BFE71B4DBF54004D4B39 /* skype@3x.png in Resources */,
 				C6F921441B4D94C700B39A3A /* LaunchScreen.xib in Resources */,
+				C6B0BFEE1B4DDECB004D4B39 /* name@2x.png in Resources */,
 				C6F921411B4D94C700B39A3A /* Images.xcassets in Resources */,
+				C6B0BFE91B4DBF54004D4B39 /* title@3x.png in Resources */,
+				C6B0BFE61B4DBF54004D4B39 /* skype@2x.png in Resources */,
+				C6B0BFF01B4DDECB004D4B39 /* realname@2x.png in Resources */,
+				C6B0BFE31B4DBF54004D4B39 /* email@3x.png in Resources */,
+				C6B0BFE41B4DBF54004D4B39 /* phone@2x.png in Resources */,
+				C6B0BFEF1B4DDECB004D4B39 /* name@3x.png in Resources */,
+				C6B0BFE81B4DBF54004D4B39 /* title@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +271,9 @@
 			files = (
 				C6F9213C1B4D94C700B39A3A /* ViewController.swift in Sources */,
 				C6F9213A1B4D94C700B39A3A /* AppDelegate.swift in Sources */,
+				C6B0BFD91B4DB1AD004D4B39 /* TeamMemberDetailViewController.swift in Sources */,
+				C6B0BFD71B4D9CEC004D4B39 /* APICalls.swift in Sources */,
+				C6F9215A1B4D96BD00B39A3A /* TeamTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +403,7 @@
 				INFOPLIST_FILE = Slack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -353,6 +414,7 @@
 				INFOPLIST_FILE = Slack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -409,6 +471,7 @@
 				C6F921551B4D94C800B39A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6F921561B4D94C800B39A3A /* Build configuration list for PBXNativeTarget "SlackTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +480,7 @@
 				C6F921581B4D94C800B39A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
